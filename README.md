@@ -1,6 +1,6 @@
-# [Name]
+# [Jack Zweibelson]
 ## [Assignment #]
-## [Submission date: MM/DD/YY]
+## [Submission date: 10/2/24]
 ## Worked with/sources 
 * example
 * example

@@ -1,9 +1,9 @@
-# Your Name Here
+# Jack Zweibelson
 # UWYO COSC 1010
-# Submission Date
-# Lab 03 
-# Lab Section: 
-# Sources, people worked with, help given to: 
+# 10/2/2024
+# Lab 04 
+# Lab Section: 15
+# Sources, people worked with, help given to: Houston Gotch
 # your
 # comments
 # here
@@ -99,7 +99,20 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
+max_sum = 0
+min_sum = 0
+x = len(max_temps)
+
+for i in range(x):
+    max_sum += max_temps[i]
+    min_sum += min_temps[i]
+
+print(f"The average maximum temperate in Laramie is {max_sum/x}")
+print(f"The average minimum temperate in Laramie is {round(min_sum/x,1)}")
+
+
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
+print(f'The highest temperature recorded was {max(max_temps)} degrees.')
 
-
+print(f'The lowest temperature recorded was {min(min_temps)} degrees.')
